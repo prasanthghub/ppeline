@@ -6,7 +6,7 @@ pipeline {
 	stages {
     	stage("Checkout") {   
         	steps {               	 
-            	git branch: 'sessionmain', url: 'https://github.com/prasanthghub/ppeline.git'        	 
+            	git branch: 'main', url: 'https://github.com/prasanthghub/ppeline.git'        	 
            	 
         	}    
     	}
